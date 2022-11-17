@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	pb "./../../proto"
-
+	pb "./../../proto/hello"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"

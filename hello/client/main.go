@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	pb "./../../proto" // 引入proto包
+	pb "./../../proto/hello" // 引入proto包
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
