@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"net"
 
-	pb "./../../proto/hello"
-	"golang.org/x/net/context"
+	pb "my_grpc/proto/hello"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )
 
 const (
-	Address = "localhost:8888"
+	Address = "127.0.0.1:8888"
 )
 
 type helloService struct{}
@@ -21,7 +21,7 @@ var HelloService = helloService{}
 
 func (h helloService) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloResponce, error) {
 	resp := new(pb.HelloResponce)
-	resp.message = fmt.Sprintf("Hello %s,", in.Name)
+	resp.Message = fmt.Sprintf("Hello %s,", in.Name)
 	return resp, nil
 }
 func main() {
@@ -31,7 +31,7 @@ func main() {
 	}
 	s := grpc.NewServer()
 
-	pb.RegisterHelloServer(s, helloService)
+	pb.RegisterHelloServer(s, HelloService)
 	grpclog.Println("Listen on " + Address)
 	s.Serve(listen)
 }

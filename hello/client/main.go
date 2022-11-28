@@ -2,16 +2,17 @@ package main
 
 import (
 	"context"
+	"fmt"
 
-	pb "./../../proto/hello" // 引入proto包
-	"golang.org/x/net/context"
+	pb "my_grpc/proto/hello" // 引入proto包
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )
 
 const (
 	// Address gRPC服务地址
-	Address = "localhost:8888"
+	Address = "127.0.0.1:8888"
 )
 
 func main() {
@@ -29,5 +30,5 @@ func main() {
 	if err != nil {
 		grpclog.Fatalln(err)
 	}
-	grpclog.Println(res.Message)
+	fmt.Println(res.Message)
 }
