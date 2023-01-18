@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/imx6/tools/gopath/src/grpc-practise'
+make: Leaving directory '/home/imx6/tools/gopath/src/grpc-practise'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
