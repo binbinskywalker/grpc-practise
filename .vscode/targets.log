@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jan 18 14:31:17 2023
+# Make data base, printed on Tue Mar  7 16:25:48 2023
 
 # Variables
 
@@ -24,6 +24,8 @@ PAPERSIZE = letter
 DESKTOP_SESSION = ubuntu
 # default
 .SHELLFLAGS := -c
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -45,7 +47,7 @@ CURDIR := /home/imx6/tools/gopath/src/grpc-practise
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"f45d28db2b892ef5d3a7efebc519f640.zh-cn","_translationsConfigFile":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/tcf.json","_cacheRoot":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn","_resolvedLanguagePackCoreLocation":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/97dec172d3256f8ca4bfb2143f3f76b503ca0534","_corruptedFile":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{"*":"zh-cn"},"_languagePackId":"f45d28db2b892ef5d3a7efebc519f640.zh-cn","_translationsConfigFile":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/tcf.json","_cacheRoot":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn","_corruptedFile":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/corrupted.info","_resolvedLanguagePackCoreLocation":"/home/imx6/.config/Code/clp/f45d28db2b892ef5d3a7efebc519f640.zh-cn/92da9481c0904c6adfe372c12da3b7748d74bdcb","_languagePackSupport":true}
 # environment
 _ = /usr/share/code/code
 # environment
@@ -85,17 +87,15 @@ GOPROXY = https://goproxy.cn
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/imx6/tools/go/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/home/imx6/bin:/home/imx6/.local/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/imx6/tools/gopath/bin:/home/imx6/tools/gopath/bin
+PATH = /home/imx6/tools/go/bin:/home/imx6/.cache/cloud-code/installer/google-cloud-sdk/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/home/imx6/bin:/home/imx6/.local/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/imx6/tools/gopath/bin:/home/imx6/tools/gopath/bin:/home/imx6/google-cloud-sdk/bin
 # environment
 PLAT = ubuntu
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
 SRCPATH = /home/imx6/project/gateway/source
 # environment
-SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/2793,unix/ubuntu:/tmp/.ICE-unix/2793
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/2782,unix/ubuntu:/tmp/.ICE-unix/2782
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -109,17 +109,19 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
-LS_COLORS = 
+CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 43280
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3305
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.21.1
 # environment
 GTK_IM_MODULE = fcitx
 # environment
@@ -129,7 +131,7 @@ QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 2925
+SSH_AGENT_PID = 2914
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -143,7 +145,7 @@ LD_LIBRARY_PATH = /usr/local/postgresql/lib:/home/imx6/project/gateway/build/ubu
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/imx6/.config/Code/CachedData/97dec172d3256f8ca4bfb2143f3f76b503ca0534
+VSCODE_CODE_CACHE_PATH = /home/imx6/.config/Code/CachedData/92da9481c0904c6adfe372c12da3b7748d74bdcb
 # environment
 LOGNAME = imx6
 # environment
@@ -197,7 +199,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = en_US:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-77a803e1-1.74.3-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-77a803e1-1.76-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -212,6 +214,8 @@ GDK_BACKEND = x11
 LC_PAPER = en_US.UTF-8
 # environment
 GTK2_MODULES = overlay-scrollbar
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
 # environment
@@ -245,7 +249,7 @@ WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-LC_IDENTIFICATION = en_US.UTF-8
+GJS_DEBUG_OUTPUT = stderr
 # environment
 PROROOT = /home/imx6/project/gateway
 # default
@@ -255,9 +259,9 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 43280
+VSCODE_PID = 3305
 # variable set hash-table stats:
-# Load=122/1024=12%, Rehash=0, Collisions=19/144=13%
+# Load=124/1024=12%, Rehash=0, Collisions=19/146=13%
 
 # Pattern-specific Variable Values
 
@@ -265,21 +269,21 @@ VSCODE_PID = 43280
 
 # Directories
 
-# . (device 2049, inode 9330883): 7 files, no impossibilities.
+# . (device 2049, inode 9330883): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+ 
 
 # Not a target:
 all:
 #  Command line target.
 #  Implicit rule search has been done.
- 
 #  File does not exist.
 #  File has not been updated.
 
@@ -318,12 +322,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 125 B / avg = 8 B
-# current buf: size = 8162 B / used = 125 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 136 B / avg = 8 B
+# current buf: size = 8162 B / used = 136 B / count = 16 / avg = 8 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Wed Jan 18 14:31:17 2023
+# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Tue Mar  7 16:25:48 2023
 
  

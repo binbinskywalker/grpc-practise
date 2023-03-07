@@ -4,9 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	pb "proto/hello" // 引入proto包
+	pb "my_grpc/proto/hello" // 引入proto包
 
-	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )
