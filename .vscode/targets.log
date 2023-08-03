@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Mar  7 16:25:48 2023
+# Make data base, printed on Wed Mar 15 10:20:10 2023
 
 # Variables
 
@@ -87,7 +87,7 @@ GOPROXY = https://goproxy.cn
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/imx6/tools/go/bin:/home/imx6/.cache/cloud-code/installer/google-cloud-sdk/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/home/imx6/bin:/home/imx6/.local/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/imx6/tools/gopath/bin:/home/imx6/tools/gopath/bin:/home/imx6/google-cloud-sdk/bin
+PATH = /home/imx6/tools/go1.16.4/bin:/home/imx6/.cache/cloud-code/installer/google-cloud-sdk/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/home/imx6/bin:/home/imx6/.local/bin:/usr/local/nsq-1.2.0/bin:/home/imx6/tools/apache-maven-3.8.4/bin:/usr/local/node-v16.13.2-linux-x64/bin:/usr/local/python37/bin:/usr/local/git/bin:/opt/clion-2021.1.2/bin:/home/imx6/toolchain/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/imx6/tools/gopath/bin:/home/imx6/tools/gopath/bin:/home/imx6/google-cloud-sdk/bin
 # environment
 PLAT = ubuntu
 # environment
@@ -95,7 +95,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 SRCPATH = /home/imx6/project/gateway/source
 # environment
-SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/2782,unix/ubuntu:/tmp/.ICE-unix/2782
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/2946,unix/ubuntu:/tmp/.ICE-unix/2946
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -115,8 +115,9 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3305
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5655
 # automatic
+ 
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
@@ -131,7 +132,7 @@ QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 2914
+SSH_AGENT_PID = 3046
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -185,7 +186,7 @@ LC_MONETARY = en_US.UTF-8
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
-GOROOT = /home/imx6/tools/go
+GOROOT = /home/imx6/tools/go1.16.4
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -241,7 +242,7 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # default
 SUFFIXES := 
 # environment
-GOTOOLS = /home/imx6/tools/go/pkg/tool
+GOTOOLS = /home/imx6/tools/go1.16.4/pkg/tool
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
@@ -259,7 +260,7 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 3305
+VSCODE_PID = 5655
 # variable set hash-table stats:
 # Load=124/1024=12%, Rehash=0, Collisions=19/146=13%
 
@@ -269,16 +270,15 @@ VSCODE_PID = 3305
 
 # Directories
 
-# . (device 2049, inode 9330883): 8 files, no impossibilities.
+# . (device 2049, inode 9330883): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
- 
 
 # Not a target:
 all:
@@ -322,12 +322,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 136 B / avg = 8 B
-# current buf: size = 8162 B / used = 136 B / count = 16 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 154 B / avg = 9 B
+# current buf: size = 8162 B / used = 154 B / count = 17 / avg = 9 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Tue Mar  7 16:25:48 2023
+# Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
+# Finished Make data base on Wed Mar 15 10:20:10 2023
 
  
